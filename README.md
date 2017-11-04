@@ -1,5 +1,8 @@
 # Authex.Blacklist.Redis
 
+[![Build Status](https://travis-ci.org/nsweeting/authex_blacklist_redis.svg?branch=master)](https://travis-ci.org/nsweeting/authex_blacklist_redis)
+[![Authex.Blacklist.Redis Version](https://img.shields.io/hexpm/v/authex_blacklist_redis.svg)](https://hex.pm/packages/authex_blacklist_redis)
+
 This is a simple library for using redis as the token blacklist storage with [Authex](https://github.com/nsweeting/authex)
 
 ## Installation
