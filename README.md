@@ -20,7 +20,7 @@ See [HexDocs](https://hexdocs.pm/authex_blacklist_redis) for additional document
 
 ## Configuration
 
-In order to use this as your blacklist module, you must add the following your Authex config.
+In order to use this as your blacklist module, you must add the following to your Authex config.
 
 ```elixir
 config :authex, [
