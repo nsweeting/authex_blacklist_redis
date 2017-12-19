@@ -25,6 +25,6 @@ defmodule Authex.Blacklist.Redis.Application do
     :authex
     |> Application.get_env(Authex.Blacklist.Redis, [])
     |> Keyword.merge(options)
-    |> Keyword.put_new(:url, System.get_env("REDIS_URL"))
+    |> Keyword.put_new(:url, System.get_env("REDIS_BLACKLIST_URL"))
   end
 end

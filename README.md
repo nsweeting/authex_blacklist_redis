@@ -42,4 +42,4 @@ config :authex, Authex.Blacklist.Redis, [
 ]
 ```
 
-Alternatively, you can place your redis url in the env var `REDIS_URL`.
+Alternatively, you can place your redis url in the env var `REDIS_BLACKLIST_URL`.
