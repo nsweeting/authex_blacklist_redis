@@ -12,7 +12,7 @@ The package can be installed by adding `authex_blacklist_redis` to your list of 
 ```elixir
 def deps do
   [
-    {:authex_blacklist_redis, "~> 0.1.0"}
+    {:authex_blacklist_redis, "~> 0.1.1"}
   ]
 end
 ```
@@ -23,10 +23,10 @@ See [HexDocs](https://hexdocs.pm/authex_blacklist_redis) for additional document
 
 ## Configuration
 
-In order to use this as your blacklist module, you must add the following to your Authex config.
+In order to use this as your blacklist module, you must add the following to your Authex auth config.
 
 ```elixir
-config :authex, [
+config :my_app, MyApp.Auth, [
   blacklist: Authex.Blacklist.Redis,
 ]
 ```
