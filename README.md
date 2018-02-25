@@ -12,7 +12,7 @@ The package can be installed by adding `authex_blacklist_redis` to your list of 
 ```elixir
 def deps do
   [
-    {:authex_blacklist_redis, "~> 0.1.1"}
+    {:authex_blacklist_redis, "~> 0.1.2"}
   ]
 end
 ```
